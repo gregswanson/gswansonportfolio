@@ -688,49 +688,18 @@ h3.modalText {
     }
 }
 
-
-/** 
- * iPad with portrait orientation.
- */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-  #tf-home {
-    height: 1024px;
-    background-attachment: scroll;
-  }
-
-  #tf-about{
-	background-attachment: scroll;
+@media only screen and (max-width: 500px) {
+    .name{
+		letter-spacing: 5px;
 	}
+
+	a.fa.fa-angle-double-down {
+	
+	color: #fff;
+	font-size: 75px;
+	margin-top: 25px;
+
+}
 }
 
-/** 
- * iPad with landscape orientation.
- */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-  #tf-home {
-    height: 768px;
-    background-attachment: scroll;
-  }
 
-  #tf-about{
-	background-attachment: scroll;
-	}
-}
-
-/**
- * iPhone 5
- * You can also target devices with aspect ratio.
- */
-@media screen and (device-aspect-ratio: 40/71) {
-  #tf-home {
-    /*height: 500px;*/
-    background-attachment: scroll;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  #tf-about{
-	background-attachment: scroll;
-	max-width: 100%;
-	}
-}
