@@ -725,9 +725,11 @@ h3.modalText {
   #tf-home {
     height: 500px;
     background-attachment: scroll;
+    max-width: 100%;
   }
-  
+
   #tf-about{
 	background-attachment: scroll;
+	max-width: 100%;
 	}
 }
