@@ -723,7 +723,7 @@ h3.modalText {
  */
 @media screen and (device-aspect-ratio: 40/71) {
   #tf-home {
-    height: 500px;
+    /*height: 500px;*/
     background-attachment: scroll;
     max-width: 100%;
   }
