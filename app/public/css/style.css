@@ -6,10 +6,6 @@ body, html{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    
 }
 
 h1{
@@ -730,6 +726,7 @@ h3.modalText {
     /*height: 500px;*/
     background-attachment: scroll;
     max-width: 100%;
+    overflow-x: hidden;
   }
 
   #tf-about{
