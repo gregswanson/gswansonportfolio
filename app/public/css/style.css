@@ -38,8 +38,8 @@ h2{
 	margin:  0;
 }
 h3{
-font-size: 18px;
-font-weight: 900;
+	font-size: 18px;
+	font-weight: 900;
 }
 h4{
 	text-transform: uppercase;
@@ -570,6 +570,7 @@ label {
 	-webkit-transition: none;
 	-o-transition: none;
 	transition: none;
+	box-sizing: border-box;
 }
 
 #tf-contact .form-control:focus {
@@ -698,8 +699,8 @@ h3.modalText {
 	color: #fff;
 	font-size: 75px;
 	margin-top: 25px;
-
 }
+
 }
 
 
