@@ -695,6 +695,7 @@ h3.modalText {
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
   #tf-home {
     height: 1024px;
+    background-attachment:scroll;
   }
 }
 
@@ -704,6 +705,7 @@ h3.modalText {
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
   #tf-home {
     height: 768px;
+    background-attachment:scroll;
   }
 }
 
@@ -714,5 +716,6 @@ h3.modalText {
 @media screen and (device-aspect-ratio: 40/71) {
   #tf-home {
     height: 500px;
+    background-attachment:scroll;
   }
 }
