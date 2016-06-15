@@ -7,7 +7,7 @@ var portfolioimg = [];
 var originURL = document.location.origin; 
 var queryURL = '/api';
 
-$.ajax({url: originURL + queryURL, method: 'GET'}).done(function(data){
+$.ajax({url: originURL + queryURL, method: 'GET', dataType: 'json', contentType: 'json'}).done(function(data){
         for (var i = 0; i < data.length; i++) {
             portfolioimg.push(data[i]);
         }
