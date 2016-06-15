@@ -94,6 +94,9 @@ ul, ol{
 	webkit-padding: 0;
 	moz-padding: 0;
 }
+
+
+
 /* Navigation */
 
 
@@ -594,6 +597,13 @@ button.btn.tf-btn.btn-default {
 	padding: 10px 40px;
 	color: #ffffff;
 	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+}
+
+
+/*Button */
+#emailButton:hover {
+	background-color: #e29a3e;
 }
 
 .btn:active, .btn.active {
