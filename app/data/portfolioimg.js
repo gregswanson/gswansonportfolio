@@ -102,7 +102,7 @@ var portfolioimg = [
 	noteone: 'Brochure',
 	notetwo: '28 page brochure',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/Xiaflex_2_4_mu.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/Xiaflex_2_2_mu.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/Xiaflex_2_3_mu.png'],
+	imgs: ['img/portfolio/Xiaflex_2_4_mu.png', 'img/portfolio/Xiaflex_2_2_mu.png', 'img/portfolio/Xiaflex_2_3_mu.png'],
 	desc: '28-page brochure for a pharmaceutical client.',
 	tech: 'Technologies used: Photoshop, Illustrator, InDesign'
 	},
@@ -113,7 +113,7 @@ var portfolioimg = [
 	noteone: 'Brochure',
 	notetwo: '8 page brochure',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/SIUH1a_mu2.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/SIUH2_mu2.png'],
+	imgs: ['img/portfolio/SIUH1a_mu2.png', 'img/portfolio/SIUH2_mu2.png'],
 	desc: 'Informational booklet describing hospital\'s new emergency and trauma center.',
 	tech: 'Technologies used: Photoshop, Illustrator, InDesign'
 	},
@@ -124,7 +124,7 @@ var portfolioimg = [
 	noteone: 'Record Artwork',
 	notetwo: '7\" record',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/TAJ1.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/TAJ2.png'],
+	imgs: ['img/portfolio/TAJ1.png', 'img/portfolio/TAJ2.png'],
 	desc: 'Split 7\" vinyl record for Velocity and The Amber Jets released in US and Japan',
 	tech: 'Technologies used: Photoshop, Illustrator, InDesign'
 	},
@@ -135,7 +135,7 @@ var portfolioimg = [
 	noteone: 'Music Posters',
 	notetwo: 'various',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/Japanposter2C_mu.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/120410_Walter_mu.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/TAJ_DSOD_052209_mu.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/Sweeps_2_mu.png'],
+	imgs: ['img/portfolio/Japanposter2C_mu.png', 'img/portfolio/120410_Walter_mu.png', 'img/portfolio/TAJ_DSOD_052209_mu.png', 'img/portfolio/Sweeps_2_mu.png'],
 	desc: 'Collection of posters promoting various live concert events.',
 	tech: 'Technologies used: Photoshop, Illustrator, InDesign'
 	},
