@@ -166,7 +166,7 @@ var portfolioimg = [
 	noteone: 'Landing Pages',
 	notetwo: 'virtual conference',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/vcopious_Screens.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/vcopious_ECFD.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/vcopious_Virtual_Map.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/vcopious_Education.png'],
+	imgs: ['img/portfolio/vcopious_Screens.png', 'img/portfolio/vcopious_ECFD.png', 'img/portfolio/vcopious_Virtual_Map.png', 'img/portfolio/vcopious_Education.png'],
 	desc: 'Opening screens for virtual conference events.',
 	tech: 'Technologies used: Photoshop, Illustrator'
 	},
@@ -197,7 +197,7 @@ var portfolioimg = [
 	noteone: 'Logos',
 	notetwo: 'various',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/student_leadership.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/ieee_HKN_Logo.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/alumni_Reconnect.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/the_Heavenly_Tenants.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/dsod.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/taj_logo.png'],
+	imgs: ['img/portfolio/student_leadership.png', 'img/portfolio/ieee_HKN_Logo.png', 'img/portfolio/alumni_Reconnect.png', 'img/portfolio/the_Heavenly_Tenants.png', 'img/portfolio/dsod.png', 'img/portfolio/taj_logo.png'],
 	desc: 'A collection of various logos.',
 	tech: 'Technologies used: Photoshop, Illustrator'
 	},
@@ -208,7 +208,7 @@ var portfolioimg = [
 	noteone: 'Facebook',
 	notetwo: 'company page',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/IEEE_Facebook_1.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/IEEE_Facebook_4.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/IEEE_Facebook_3.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/IEEE_Facebook_2.png' ],
+	imgs: ['img/portfolio/IEEE_Facebook_1.png', 'img/portfolio/IEEE_Facebook_4.png', 'img/portfolio/IEEE_Facebook_3.png', 'img/portfolio/IEEE_Facebook_2.png' ],
 	desc: 'Series of screens to promote company\'s various programs.',
 	tech: 'Technologies used: Photoshop, Illustrator'
 	},
@@ -219,7 +219,7 @@ var portfolioimg = [
 	noteone: 'Various',
 	notetwo: 'various pieces',
 	popup: 'xxxx',
-	imgs: ['https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/various.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/Sticker.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/OHSP_1a_Keep.png', 'https://github.com/gregswanson/gswansonportfolio/blob/master/app/public/img/portfolio/OHSP_1b_Keep.png'],
+	imgs: ['img/portfolio/various.png', 'img/portfolio/Sticker.png', 'img/portfolio/OHSP_1a_Keep.png', 'img/portfolio/OHSP_1b_Keep.png'],
 	desc: 'A collection of various projects.',
 	tech: 'Technologies used: Photoshop, Illustraton, InDesign'
 	}
