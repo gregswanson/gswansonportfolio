@@ -656,7 +656,7 @@ nav#footer p{
 /* Modal */
 
 .modalImage {
-	width: 100%;
+	max-width: 500px;
 	margin-bottom: 20px;
 
 }
