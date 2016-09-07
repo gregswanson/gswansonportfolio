@@ -7,6 +7,9 @@
 var portfolioimg 	= require('../data/portfolioimg.js');
 var path 			= require('path');
 var nodemailer 		= require('nodemailer');
+var api_key = 'key-b49c8dc80e5f8350ab8ce47ee6d8e3ae';
+var domain = 'gregswanson.info';
+var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 
 
@@ -29,28 +32,45 @@ module.exports = function(app){
 
 
 	app.post('/', function (req, res) {
-		console.log(req.body);
-	    var smtpTransport = nodemailer.createTransport('SMTP', {
-	      service: 'Gmail',
-	      auth: {
-	        user: 'gregwebcontact@gmail.com',
-	        pass: 'serpico2000'
-	      }
-	    });
-
-	    smtpTransport.sendMail({
-	       from: req.body.email, // sender address
-	       to: 'gregswanson78@gmail.com', // comma separated list of receivers
-	       subject: 'portfolio email from ' + req.body.subject, // Subject line
-	       text: 'New message from: ' + req.body.email + ' : ' + req.body.mess // plaintext body
-	    }, function(error, response){
-	       if(error){
-	           console.log(error);
-	       }else{
-	           console.log("Message sent: " + response.message);
-	       }
-	    });
+		//console.log(req.body);
+		var body = req.body;
+ 
+		var data = {
+		  from: 'contact@gregswanson.info', // sender address
+		  to: 'gregswanson78@gmail.com',
+		  subject: 'portfolio email from ' + req.body.subject, // Subject line
+		  text: 'New message from: ' + req.body.email + ' : ' + req.body.mess // plaintext body
+		};
+		 
+		mailgun.messages().send(data, function (error, body) {
+		  console.log(body);
+		});
 	});
+	    
+//////////////////////////////////////
+	//     var smtpTransport = nodemailer.createTransport('SMTP', {
+	//       service: 'Mailgun',
+	//       auth: {
+	//         user: 'gregwebcontact@gmail.com',
+	//         pass: 'serpico2000'
+	//       }
+	//     });
+
+	//     smtpTransport.sendMail({
+	//        from: req.body.email, // sender address
+	//        to: 'gregswanson78@gmail.com', // comma separated list of receivers
+	//        subject: 'portfolio email from ' + req.body.subject, // Subject line
+	//        text: 'New message from: ' + req.body.email + ' : ' + req.body.mess // plaintext body
+	//     }, function(error, response){
+	//        if(error){
+	//            console.log(error);
+	//        }else{
+	//            console.log("Message sent: " + response.message);
+	//        }
+	//     });
+	// });
+////////////////////////////////////////////
+
 
 	// app.get('/api/waitlist', function(req, res){
 	// 	res.json(waitListData);
