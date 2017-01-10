@@ -8,19 +8,19 @@ $(window).load(function() { // makes sure the whole site is loaded
      $('body').delay(350).css({'overflow':'visible'});
   }) 
 
-
-
+// background image 
+// var winHeight = $(window).height();
+//   console.log ("window height: " + winHeight);
+//   $('#tf-home').height(winHeight);
 
 
 
 //email
-
-
 $('#emailcontact').on( 'click', '#emailButton', function() {
 
     
    
-    //console.log("BRAND NEW EMAIL: ");
+//console.log("BRAND NEW EMAIL: ");
 
     var contact = 
       {
@@ -40,11 +40,6 @@ $('#emailcontact').on( 'click', '#emailButton', function() {
       $('#emailName').val("");
       $('#emailMessage').val("");
       $('#emailEmail').val("");
-
-    // $isogrid.isotope( 'remove', $('#' + modalID))
-    
-    // // layout remaining item elements
-    // .isotope('layout');
     
     return false;
 
