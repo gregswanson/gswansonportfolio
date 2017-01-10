@@ -157,6 +157,7 @@ font-weight: 900;
 #tf-home{
 	background: url(../img/oldcomputer2.png);
 	height: 100vh;
+	max-width: 100%;
 	background-size: cover;
 	margin-bottom: 0px;
 	background-repeat: no-repeat;
@@ -691,7 +692,7 @@ h3.modalText {
 	border-bottom: none;
 }
 
-@media only screen 
+/*@media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
  #tf-home{
@@ -701,7 +702,7 @@ and (max-device-width : 1024px)  {
  #tf-testimonials .overlay {
  	background-attachment:scroll;
  }
-}
+}*/
 
 
 @media only screen and (max-width: 1200px) {
