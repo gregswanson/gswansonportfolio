@@ -697,6 +697,10 @@ and (max-device-width : 1024px)  {
  #tf-home{
  	background-attachment:scroll;
  }
+
+ #tf-testimonials .overlay {
+ 	background-attachment:scroll;
+ }
 }
 
 
