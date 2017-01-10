@@ -9,10 +9,10 @@ $(window).load(function() { // makes sure the whole site is loaded
   }) 
 
 // background image 
-// var winHeight = $(window).height();
-//   console.log ("window height: " + winHeight);
-//   $('#tf-home').height(winHeight);
-//   $('#tf-home .overlay').height(winHeight);
+var winHeight = $(window).height();
+  console.log ("window height: " + winHeight);
+  $('#tf-home').height(winHeight);
+  $('#tf-home .overlay').height(winHeight);
 
 
 
