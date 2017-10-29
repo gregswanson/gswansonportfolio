@@ -21,7 +21,7 @@ var portfolioimg = [
 	imgs: ['img/portfolio/withinreach1.png', 'img/portfolio/withinreach2.png'],
 	desc: 'WithinReach is a geolocation job search app.',
 	tech: 'Technologies used: HTML5/CSS3, JavaScript, JQuery, Bootstrap, Firebase, Google Maps API, Indeed API',
-	site: 'http://45.63.12.88/withinreach/'
+	site: 'http://withinreachjobs.com/'
 	},
 	{
 	id: 3,
