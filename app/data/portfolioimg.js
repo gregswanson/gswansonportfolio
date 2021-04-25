@@ -219,7 +219,7 @@ var portfolioimg = [
 	noteone: 'Various',
 	notetwo: 'various pieces',
 	popup: 'xxxx',
-	imgs: ['img/portfolio/various.png', 'img/portfolio/Sticker.png', 'img/portfolio/poster_try_computing_Final_mu.jpg', 'img/portfolio/poster_try_engineering_Final_mu.png', 'img/portfolio/MCC_mu.png', 'img/portfolio/OHSP_1a_Keep.png', 'img/portfolio/OHSP_1b_Keep.png'],
+	imgs: ['img/portfolio/various.png', 'img/portfolio/Sticker.png', 'img/portfolio/poster_try_engineering_Final_mu.jpg', 'img/portfolio/poster_try_computing_Final_mu.jpg', 'img/portfolio/MCC_mu.jpg', 'img/portfolio/OHSP_1a_Keep.png', 'img/portfolio/OHSP_1b_Keep.png'],
 	desc: 'A collection of various projects.',
 	tech: 'Technologies used: Photoshop, Illustraton, InDesign'
 	}
