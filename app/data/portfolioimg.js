@@ -197,7 +197,7 @@ var portfolioimg = [
 	noteone: 'Logos',
 	notetwo: 'various',
 	popup: 'xxxx',
-	imgs: ['img/portfolio/student_leadership.png', 'img/portfolio/ieee_HKN_Logo.png', 'img/portfolio/alumni_Reconnect.png', 'img/portfolio/the_Heavenly_Tenants.png', 'img/portfolio/dsod.png', 'img/portfolio/taj_logo.png'],
+	imgs: ['img/portfolio/student_leadership.png', 'img/portfolio/alumni_Reconnect.png', 'img/portfolio/the_Heavenly_Tenants.png', 'img/portfolio/dsod.png', 'img/portfolio/taj_logo.png'],
 	desc: 'A collection of various logos.',
 	tech: 'Technologies used: Photoshop, Illustrator'
 	},
@@ -219,7 +219,7 @@ var portfolioimg = [
 	noteone: 'Various',
 	notetwo: 'various pieces',
 	popup: 'xxxx',
-	imgs: ['img/portfolio/various.png', 'img/portfolio/Sticker.png', 'img/portfolio/OHSP_1a_Keep.png', 'img/portfolio/OHSP_1b_Keep.png'],
+	imgs: ['img/portfolio/various.png', 'img/portfolio/Sticker.png', 'img/portfolio/poster_try_computing_Final_mu.jpg', 'img/portfolio/poster_try_engineering_Final_mu.png', 'img/portfolio/MCC_mu.png', 'img/portfolio/OHSP_1a_Keep.png', 'img/portfolio/OHSP_1b_Keep.png'],
 	desc: 'A collection of various projects.',
 	tech: 'Technologies used: Photoshop, Illustraton, InDesign'
 	}
