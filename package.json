@@ -14,7 +14,7 @@
     "mailgun-js": "^0.7.12",
     "morgan": "^1.7.0",
     "nodemailer": "^0.7.1",
-    "npm": "^7.11.1"
+    "npm": "^8.11.0"
   },
   "engines": {
     "node": "12.13.0"
